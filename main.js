@@ -24,8 +24,8 @@ loader.load( './public/session.glb', function ( gltf ) {
 
 // Lights
 const light = new THREE.AmbientLight( 0xffffff ); // soft white light
+light.intensity = 5
 scene.add( light );
-
 // Camera
 camera.position.z = 5;
 
